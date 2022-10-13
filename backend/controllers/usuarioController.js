@@ -49,8 +49,13 @@ const autenticar = async (req, res) => {
   }
 }
 
+const confirmar = async(req, res) => {
+
+}
+
 
 export {
   registrar,
-  autenticar
+  autenticar,
+  confirmar
 }
